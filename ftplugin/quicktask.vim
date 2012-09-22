@@ -943,20 +943,20 @@ endfunction
 
 " ============================================================================
 " Key mappings {{{1
-nmap <Leader>tv :call <SID>SelectTask()<CR>
-nmap <Leader>tD :call <SID>TaskComplete()<CR>
-nmap <Leader>ta :call <SID>ShowActiveTasksOnly()<CR>
-nmap <Leader>tw :call <SID>ShowWatchedTasksOnly()<CR>
-nmap <Leader>ty :call <SID>ShowTodayTasksOnly()<CR>
-nmap <Leader>ts :call <SID>AddNextTimeToTask()<CR>
-nmap <Leader>tO :call <SID>AddTaskAbove()<CR>
-nmap <Leader>to :call <SID>AddTaskBelow()<CR>
-nmap <Leader>tc :call <SID>AddChildTask()<CR>
-nmap <Leader>tu :call <SID>MoveTaskUp()<CR>
-nmap <Leader>td :call <SID>MoveTaskDown()<CR>
-nmap <Leader>tS :call <SID>AddSnipToTask()<CR>
-nmap <Leader>tj :call <SID>JumpToSnip()<CR>
-nmap <Leader>tfi :call <SID>FindIncompleteTimestamps()<CR>:silent set hlsearch \| echo<CR>
+nmap <Leader>rv :call <SID>SelectTask()<CR>
+nmap <Leader>rD :call <SID>TaskComplete()<CR>
+nmap <Leader>ra :call <SID>ShowActiveTasksOnly()<CR>
+nmap <Leader>rw :call <SID>ShowWatchedTasksOnly()<CR>
+nmap <Leader>ry :call <SID>ShowTodayTasksOnly()<CR>
+nmap <Leader>rs :call <SID>AddNextTimeToTask()<CR>
+nmap <Leader>rO :call <SID>AddTaskAbove()<CR>
+nmap <Leader>ro :call <SID>AddTaskBelow()<CR>
+nmap <Leader>rc :call <SID>AddChildTask()<CR>
+nmap <Leader>ru :call <SID>MoveTaskUp()<CR>
+nmap <Leader>rd :call <SID>MoveTaskDown()<CR>
+nmap <Leader>rS :call <SID>AddSnipToTask()<CR>
+nmap <Leader>rj :call <SID>JumpToSnip()<CR>
+nmap <Leader>rfi :call <SID>FindIncompleteTimestamps()<CR>:silent set hlsearch \| echo<CR>
 " I don't know if this is rude.
 nnoremap <buffer> <CR> :call OpenSnip()<CR>
 
